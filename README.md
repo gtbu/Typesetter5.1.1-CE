@@ -7,7 +7,7 @@ It runs with php 5.6+ up to php 7.3.  (5.3+ , if less and scss-compilers are not
 * This version contains ckeditor 4.62. At http://typesetter5.bplaced.net/Ckeditor You find all higher ckeditor versions !
 * It contains the newest sass-compiler for bootstrap 4.x  (php 5.6+ )
 * It contains a new 10times faster less2.53-compiler  (php 5.6+ )
-* PHPmailer 5.2.7 - version without known security issues
+* PHPmailer 5.2.7 - version without known security issues (https://github.com/tpbu/PHPMailer-5.27)
 
 
 Contained Plugins with small bugs :
