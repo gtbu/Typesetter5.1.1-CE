@@ -8,7 +8,7 @@ It runs with php 5.6+ up to php 7.3.  (5.3+ , if less and scss-compilers are not
 * It contains the newest sass-compiler for bootstrap 4.x  (php 5.6+ )
 * It contains a new 10times faster less2.53-compiler  (php 5.6+ )
 * PHPmailer 5.2.7 - version without known security issues
-- issues please in the forum under beta
+
 
 Contained Plugins with small bugs :
 * Within the Easy-Comments-Plugin the comments cannot be deleted within the plugin but only within the website where they appear(Point : delete).
