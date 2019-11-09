@@ -1,3 +1,5 @@
+* This is a continuation of my archived Typesetter 5.11b2, which is an improved fork of Typesetter5.1.1b1
+
 This Typesetter 5 - version contains the newest security issues and some small modifications and updates. It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
 It runs with php 5.6+ up to php 7.3.  (5.3+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.3 in the common.php) 
