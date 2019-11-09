@@ -644,6 +644,9 @@ SetOutputFilter DEFLATE
 SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip
 </IfModule>
 
+RewriteCond %{REQUEST_METHOD} ^TRACE 
+RewriteRule .* - [F]
+
 # END Typesetter';
 
 	}
