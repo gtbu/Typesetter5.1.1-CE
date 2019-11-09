@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    processIsolation	= "false"
+    stopOnFailure		= "true"
+    stopOnError			= "false"
+    stopOnIncomplete	= "false"
+    stopOnSkipped		= "false"
+    bootstrap			= ".phpunit/bootstrap.php"
+    >
+
+    <testsuites>
+
+        <testsuite name="Tools">
+            <directory>.phpunit/Tool</directory>
+            <directory>.phpunit/Include</directory>
+        </testsuite>
+
+        <testsuite name="Installation">
+            <directory>.phpunit/Install</directory>
+            <directory>.phpunit/Admin</directory>
+        </testsuite>
+
+        <testsuite name="Admin">
+            <directory>.phpunit/Admin</directory>
+        </testsuite>
+
+    </testsuites>
+
+</phpunit>
+

@@ -1,0 +1,103 @@
+/*
+################################################
+CSS for for Typesetter CMS addon 'Hide Admin UI'
+Author: J. Krausz
+Date: 2018-01-15
+Version 1.1
+################################################
+*/
+
+
+/* Open Editor page offset */
+html.override_admin_style {
+  margin-left:0!important;
+  margin-top:0!important;
+  width:auto!important;
+}
+
+/* Admin UI elements */
+html.override_admin_style #gp_admin_html {
+  display:none;
+}
+
+/* messages */
+html.override_admin_style .messages.gp-fixed-adjust {
+  display:none;
+}
+
+
+/* Bootswatch fixed navbars - topbar compensation */
+html.override_admin_style .gp-fixed-adjust {
+  margin-top:0!important;
+}
+
+html.override_admin_style body.gpAdmin .navbar-fixed-top {
+  top:0;
+}
+
+/* Theme Cajon Navbar */
+html.override_admin_style nav.navbar-theme-cajon {
+  left:0!important;
+}
+
+/* Reduce Admin Content Panel Paddings */
+#admincontent_panel span, #admincontent_panel a {
+  padding:8px 10px;
+}
+
+/* Hide UI icon */
+#admincontent_panel li.hide-admin-ui a {
+  padding:8px;
+}
+#admincontent_panel li.hide-admin-ui > a > img {
+  display:inline-block;
+  height:13px;
+  width:auto;
+}
+
+
+/* Show UI icon */
+div.show-admin-ui {
+  display:none;
+}
+
+html.override_admin_style div.show-admin-ui {
+  display:block;
+  z-index:12000; 
+  cursor:pointer;
+  position:fixed;
+  top:0;
+  left:0;
+  padding:8px;
+  font-size:13px;
+  line-height:13px;
+  color:rgba(221,221,221,0.8);
+  -webkit-animation:2s infinite indicator-pulse;
+  animation:2s infinite indicator-pulse;
+}
+
+html.override_admin_style div.show-admin-ui:hover {
+  background:rgba(60,60,60,0.5);
+}
+
+html.override_admin_style div.show-admin-ui > img {
+  display:inline-block;
+  height:13px;
+  width:auto;
+}
+
+@media print {
+  html.override_admin_style div.show-admin-ui { display:none; }
+}
+
+@keyframes indicator-pulse {
+  0%    { color:rgba(221,221,221,0.85); }
+  50%   { color:rgba(60,60,60,0.85); }
+  100%  { color:rgba(221,221,221,0.85); }
+}
+
+@-webkit-keyframes indicator-pulse {
+  0%    { color:rgba(221,221,221,0.85); }
+  50%   { color:rgba(60,60,60,0.85); }
+  100%  { color:rgba(221,221,221,0.85); }
+}
