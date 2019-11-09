@@ -1,4 +1,4 @@
-* This is a continuation of my archived Typesetter 5.11b2, which is an improved fork of Typesetter5.1.1b1
+* This is a continuation of my archived Typesetter 5.11b2 (https://github.com/gtbu/Typesetter5.1.1b2), which is an improved fork of Typesetter5.1.1b1(https://github.com/Typesetter/Typesetter)
 
 This Typesetter 5 - version contains the newest security issues and some small modifications and updates. It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
