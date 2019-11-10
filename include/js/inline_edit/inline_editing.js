@@ -215,7 +215,7 @@ gp_editing = {
 		if( !$ck_area_wrap.length ){
 			var html = '<div id="ckeditor_wrap" class="nodisplay">';
 
-			html += '<a id="cktoggle" data-cmd="ToggleEditor"><i class="fa fa-angle-double-left"></i><i class="fa fa-angle-double-right"></i></a>';
+			html += '<a id="cktoggle" data-cmd="ToggleEditor"><i class=""></i><i class="fa fa-angle-double-right"></i></a>';
 
 			//tabs
 			html += '<div id="ckeditor_tabs">';
