@@ -53,7 +53,7 @@ div#ckeditor_wrap.nodisplay.show_editor {max-height:550px !Important;}
 }
 
 a#cktoggle::before{
-    content: "CK ";
+    content: "<< ";
     font-size:15px; font-weight:normal;
     color: white; width:40px;margin-bottom:5px;
 }
