@@ -85,8 +85,8 @@ a#cktoggle i.fa {
 	line-height:29px;
 	text-align:center;
 	overflow:hidden;
+	background-color:#264973;
 	}
-
 
 #ckeditor_tabs{
 	display:table;
@@ -98,6 +98,7 @@ a#cktoggle i.fa {
 	padding:0 10px;
 	text-align:center;
 	color:#888 !important;
+	background-color:#264973;
 	white-space:nowrap;
 	overflow:hidden;
 	}
