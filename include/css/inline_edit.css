@@ -53,8 +53,8 @@ div#ckeditor_wrap.nodisplay.show_editor {max-height:550px !Important;}
 }
 
 a#cktoggle::before{
-    content: "« ";
-    font-size:15px; font-weight:normal;
+    content: "«";
+    font-size:18px; font-weight:normal;
     color: white; width:40px;margin-bottom:5px;
 }
 #admincontent_panel ul li{margin-right:20px;}
