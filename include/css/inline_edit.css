@@ -55,8 +55,10 @@ div#ckeditor_wrap.nodisplay.show_editor {max-height:550px !Important;}
 a#cktoggle::before{
     content: "«»";
     font-size:20px; font-weight:normal;
-    color: white; width:40px;margin-bottom:-2px;margin-left:-10px;
+    color: white; width:40px;margin-bottom:-2px;margin-left:-5px;
 }
+a#cktoggle{max-width:30px;}
+
 #admincontent_panel ul li{margin-right:20px;}
 
 a#cktoggle i.fa {
