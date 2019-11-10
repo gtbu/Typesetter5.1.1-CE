@@ -60,9 +60,9 @@ a#cktoggle::before{
 #admincontent_panel ul li{margin-right:20px;}
 
 a#cktoggle i.fa {
-  -webkit-animation: blink 3s linear infinite;
-  -moz-animation: blink 3s linear infinite;
-  animation: blink 3s linear infinite;padding-bottom:10px;
+  -webkit-animation: blink 10s linear infinite;
+  -moz-animation: blink 10s linear infinite;
+  animation: blink 10s linear infinite;padding-bottom:10px;
 } 
 
 #ckeditor_tabs a,
