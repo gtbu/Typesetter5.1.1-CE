@@ -36,7 +36,7 @@ html += '<a id="cktoggle" data-cmd="ToggleEditor"><i class="fa fa-angle-double-l
 */
 a#cktoggle i.fa.fa-angle-double-left , a#cktoggle i.fa.fa-angle-double-right{color:#99ccff;font-size:18px;font-weight:normal;}
 
-div#ckeditor_wrap.nodisplay.show_editor {max-height:1200px; scroll:auto;}
+div#ckeditor_wrap.nodisplay.show_editor {max-height:1200px; scroll-behavior: smooth;}
 
 .blink {
   -webkit-animation: blink 3s linear infinite;
