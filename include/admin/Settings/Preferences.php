@@ -97,15 +97,20 @@ namespace gp\admin\Settings{
 			}
 
 
-			//check the old password
+				//check the old password
+			$passed = false;
 			$pass_hash		= \gp\tool\Session::PassAlgo($this->user_info);
-			$oldpass		= \gp\tool::hash($_POST['oldpassword'],$pass_hash);
-
-			if( $this->user_info['password'] != $oldpass ){
+			if( $pass_hash == 'password_hash' ){
+				$pass_sha512	= \gp\tool::hash($_POST['oldpassword'], 'sha512', 50);
+				$passed			= password_verify($pass_sha512, $this->user_info['password']);
+			}else{
+				$oldpass		= \gp\tool::hash($_POST['oldpassword'], $pass_hash);
+				$passed = $this->user_info['password'] == $oldpass;
+			}
+			if( !$passed ){
 				msg($langmessage['couldnt_reset_pass']);
 				return false;
 			}
-
 			self::SetUserPass( $this->users[$this->username], $_POST['password']);
 		}
 
