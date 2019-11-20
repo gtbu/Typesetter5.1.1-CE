@@ -66,7 +66,7 @@ if( typeof(gp_Image_Common) == 'undefined' ){
 		 * Add folder to images
 		 *
 		 */
-		gpinputs.gp_gallery_folder_add = function(rel,evt){
+		$gpinputs.gp_gallery_folder_add = function(rel,evt){
 			evt.preventDefault();
 			var frm = this.form;
 			var dir = frm.dir.value;
