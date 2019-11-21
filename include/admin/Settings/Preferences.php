@@ -90,8 +90,7 @@ namespace gp\admin\Settings{
 				return; //assume user didn't try to reset password
 			}
 
-
-			//make sure password and password1 match
+		//make sure password and password1 match
 			if( !$this->CheckPasswords() ){
 				return false;
 			}
