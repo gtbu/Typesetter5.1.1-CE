@@ -426,7 +426,6 @@ $gp.CloseAdminBox = function(evt){
 
 $gp.links.admin_box_close = $gp.inputs.admin_box_close = $gp.CloseAdminBox;
 
-
 /**
  * Save admin user settings
  *
