@@ -14,8 +14,7 @@ Contained Plugins with small bugs :
 * Within the Easy-Comments-Plugin the comments cannot be deleted within the plugin but only within the website where they appear(Point : delete).
 * The highlighter-plugin has no highlighting though there are other possibilities of other ckeditor plugins 
 
-For problems with PHP Mailer please study 
-https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+* For problems with PHP Mailer please study  https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting 
 ------------------------------------------------------------------------------------------------------
 
 # Typesetter CMS #
