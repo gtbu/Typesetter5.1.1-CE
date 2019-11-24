@@ -1,8 +1,8 @@
-* This is a continuation of my archived Typesetter 5.11b2 (https://github.com/gtbu/Typesetter5.1.1b2), which is an improved fork of Typesetter5.1.1b1(https://github.com/Typesetter/Typesetter)
+* This Typesetter 5 - version is an improved fork of Typesetter 5.1.1b1(https://github.com/Typesetter/Typesetter)
 
-This Typesetter 5 - version contains the newest security issues and some small modifications and updates. It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
+It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
 
-It runs with php 5.6+ up to php 7.3.  (5.3+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.3 in the common.php) 
+It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
 * This version contains ckeditor 4.62. At http://typesetter5.bplaced.net/Ckeditor You find all higher ckeditor versions !
 * It contains the newest sass-compiler for bootstrap 4.x  (php 5.6+ )
@@ -14,6 +14,8 @@ Contained Plugins with small bugs :
 * Within the Easy-Comments-Plugin the comments cannot be deleted within the plugin but only within the website where they appear(Point : delete).
 * The highlighter-plugin has no highlighting though there are other possibilities of other ckeditor plugins 
 
+For problems with PHP Mailer please study 
+https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
 ------------------------------------------------------------------------------------------------------
 
 # Typesetter CMS #
