@@ -1724,7 +1724,7 @@ class Edit extends \gp\Page{
 
 			//included page target
 			$include_link = '';
-			if( $section_data['type'] == 'include' ){
+			if( $section_data['type'] == 'include' && isset($section_data['include_type']) ){
 				// msg("section_data:" . pre($section_data)); undefined index if(isset..
 			  if(isset($section_data['include_type']) AND $section_data['include_type']){ 
 				 switch( $section_data['include_type'] ){		  
