@@ -22,7 +22,7 @@ class Search extends \gp\special\Base{
 
 		parent::__construct($args);
 
-		$this->config_file = $dataDir.'/data/_site/config_search.php';
+		$this->config_file = $dataDir . '/data/_site/config_search.php';
 		$this->GetConfig();
 
 		if( $this->Admin() ){
