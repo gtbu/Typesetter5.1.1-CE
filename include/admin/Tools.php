@@ -73,19 +73,19 @@ namespace gp\admin{
 			$file = $dataDir.'/data/_updates/updates.php';
 
 			//set
-			if( !is_null($update_data) ){
-				return \gp\tool\Files::SaveData($file,'update_data',$update_data);
+			if($update_data !== null){
+				return \gp\tool\Files::SaveData($file, 'update_data', $update_data);
 			}
 
 
-			$update_data	= \gp\tool\Files::Get('_updates/updates','update_data');
-			$update_data	+= array('packages'=>array());
+			$update_data	= \gp\tool\Files::Get('_updates/updates', 'update_data');
+			$update_data	+= array('packages' => array());
 
 			return \gp\tool\Files::$last_modified;
 		}
 
 
-		public static function CheckArray($array,$update_data){
+		public static function CheckArray($array, $update_data){
 
 			foreach($array as $addon => $addon_info){
 
