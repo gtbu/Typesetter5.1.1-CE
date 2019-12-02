@@ -313,7 +313,7 @@ ul#section-clipboard-items li.clipboard-empty-msg {
 #section-clipboard .clipboard-item-label-wrap{
 	display:block;
 	float:left;
-	width:94px;
+	width:calc(100% - 20px);
 	padding:0 2px;
 	box-sizing:border-box;
 	font-style:normal;
