@@ -4,7 +4,7 @@ It contains the newest security issues and some small modifications and updates 
 
 It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
-* This version contains ckeditor 4.62. At http://typesetter5.bplaced.net/Ckeditor You find all higher ckeditor versions !
+* This version contains ckeditor 4.62. At http://typesetter5.bplaced.net/Ckeditor You find all higher ckeditor versions ! Further plugins like codemirror(https://ckeditor.com/cke4/addon/codemirror) are avaliable from ckeditor.com  and are installable at settings -> ckeditor.
 * It contains the newest sass-compiler for bootstrap 4.x  (php 5.6+ )
 * It contains a  faster less2.53-compiler  (php 5.6+ )
 * PHPmailer 5.2.7 - version without known security issues (https://github.com/tpbu/PHPMailer-5.27)
