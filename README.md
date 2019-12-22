@@ -11,10 +11,9 @@ It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lg
 
 
 Contained Plugins with small bugs :
-* Within the Easy-Comments-Plugin the comments cannot be deleted within the plugin but only within the website where they appear(Point : delete).
-* The highlighter-plugin has no highlighting though there are other possibilities of other ckeditor plugins 
+* The highlighter-plugin has no highlighting, though there are other possibilities of  ckeditor plugins with simliar function 
 
-* For problems with PHP Mailer please study  https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting 
+* For problems with PHP Mailer please study  https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting  and the forum
 ------------------------------------------------------------------------------------------------------
 
 # Typesetter CMS #
