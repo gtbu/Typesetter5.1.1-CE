@@ -1,7 +1,5 @@
 <?php
 defined('is_running') or die('Not an entry point...');
-
-
 $texts = array();
 $texts[] = 'Sorry, your comment was not saved.';
 $texts[] = 'Your comment has been saved.';
