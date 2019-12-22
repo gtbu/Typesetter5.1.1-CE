@@ -11,7 +11,7 @@ It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lg
 
 
 Contained Plugins with small bugs :
-* The highlighter-plugin has no highlighting, though there are other possibilities of  ckeditor plugins with simliar function 
+* The rather old highlighter-plugin has no highlighting, though there are other possibilities of  ckeditor plugins with simliar function 
 
 * For problems with PHP Mailer please study  https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting  and the forum
 ------------------------------------------------------------------------------------------------------
