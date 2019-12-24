@@ -175,7 +175,7 @@ class EasyComments_Gadget extends EasyComments{
 			echo '<div>';
 			echo \gp\tool\Output::GetAddonText('Comment');
 			echo '</div>';
-			echo '<textarea name="comment" class="gtxt" cols="30" rows="7" >';
+			echo '<textarea name="comment" class="gtxt" cols="20" rows="6" maxlength="500">';
 			echo htmlspecialchars($_POST['comment']);
 			echo '</textarea>';
 			echo '</td>';
