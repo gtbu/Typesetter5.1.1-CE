@@ -131,11 +131,30 @@ a#cktoggle i.fa {
  * #ckeditor_area
  *
  */
-#ckeditor_area{
-	padding:10px 10px 0 10px;
-	overflow:auto;
-	box-sizing:border-box;
-	}
+#ckeditor_area, .cke_dialog_title{
+	padding: 10px 10px 0 10px;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color:#f6f6f6 !important;
+}
+#ckeditor_area .cke_top,
+#ckeditor_area .cke_toolbar { background-color:#f6f6f6 !important;}
+
+#ckeditor_area .cke,
+#ckeditor_area .cke_inner,
+#ckeditor_area .cke_toolgroup,
+#ckeditor_area a.cke_combo_button,
+#ckeditor_area a.cke_button_off:hover,
+#ckeditor_area a.cke_button_off:focus
+#ckeditor_area a.cke_button_off:active  {
+	 background-color: white !important;
+}
+
+#ckeditor_area a,
+#ckeditor_area a:hover,
+#ckeditor_area a:focus {
+	color: inherit;
+}
 
 
 #ckeditor_bottom{
