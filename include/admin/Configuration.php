@@ -63,7 +63,7 @@ class Configuration extends \gp\special\Base{
 						'minifyjs'					=> 'boolean',
 						'combinecss'				=> 'boolean',
 						'etag_headers'				=> 'boolean',
-						'space_char'				=> array('_'=>'Undersorce "_"','-'=>'Dash "-"'),
+						'space_char'				=> array('_'=>'Underscore "_"','-'=>'Dash "-"'),
 
 
 						/* Contact Configuration */
