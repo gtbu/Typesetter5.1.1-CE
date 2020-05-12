@@ -1,8 +1,8 @@
-* This Typesetter 5 - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
+This Typesetter 5.1.1ce - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
 
-It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
+* It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
 
-It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
+* It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
 * This version contains ckeditor 4.62. At http://typesetter5.bplaced.net/Ckeditor You find all higher ckeditor versions ! Further plugins like codemirror(https://ckeditor.com/cke4/addon/codemirror) are avaliable from ckeditor.com  and are installable at settings -> ckeditor.
 * It contains the newest sass-compiler for bootstrap 4.x  (php 5.6+ )
