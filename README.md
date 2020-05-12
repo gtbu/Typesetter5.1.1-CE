@@ -1,4 +1,4 @@
-* This Typesetter 5 - version is an improved fork of Typesetter 5.1.1b1(https://github.com/Typesetter/Typesetter) of summer 2019.  The 5.1.1b1 - beta of december has now nearly all of these features (and more) except a blue dashboard and mod deflate (for slow providers and smartphones essential) 
+* This Typesetter 5 - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
 
 It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
 
