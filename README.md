@@ -1,10 +1,11 @@
-This Typesetter 5.1.1ce - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and blue login and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
+This Typesetter 5.1.1ce - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  
+The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and blue login and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
 
 * It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
 
 * It is as well under GPL 2.1 license(https://www.gnu.org/licenses/old-licenses/lgpl-2.1.de.html). 
 
-* This version contains ckeditor 4.14 (WL-Version). At http://typesetter5.bplaced.net/Ckeditor You can download ALL  ckeditor versions ! Further plugins like codemirror(https://ckeditor.com/cke4/addon/codemirror) are avaliable from ckeditor.com  and are installable at settings -> ckeditor. (Others like ned1 are available at https://github.com/gtbu/n1ed-ckeditor and in this gtbu-git )
+* This version contains ckeditor 4.14 (WL-Version). At http://typesetter5.bplaced.net/Ckeditor You can download ALL  ckeditor versions ! Further plugins like codemirror(https://ckeditor.com/cke4/addon/codemirror) are avaliable from ckeditor.com  and are installable at settings -> ckeditor. (Others like smthodes are available at https://github.com/Sestolab/smethods and in this gtbu-git )
 * It contains the new sass-compiler for bootstrap 4.x  (php 5.6+ )
 * It contains a  faster less2.53-compiler  (php 5.6+ )
 * PHPmailer 5.2.7 - version without known security issues (https://github.com/tpbu/PHPMailer-5.27)
