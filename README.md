@@ -1,5 +1,7 @@
-This Typesetter 5.1.1ce - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.  
-The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and blue login and mod deflate (for slow providers and smartphones essential) - and some improvements over this version. 
+This Typesetter 5.1.1ce - version is an improved fork of Typesetter 5.1.1b1 of summer 2019.
+  
+* The momentary 5.2RC (https://github.com/Typesetter/Typesetter) has nearly all of these features except a blue dashboard and blue login and mod deflate 
+(for slow providers and smartphones essential) - and some improvements over this version like Bootstrap4-Templategenerator. 
 
 * It contains the newest security issues and some small modifications and updates and runs with php 5.6+ up to php 7.3.  (5.4+ , if less and scss-compilers are not used, or with activated old compilers by renaming  css-old.php and renaming 5.6 to 5.4 in the common.php) 
 
@@ -15,6 +17,9 @@ Contained Plugins with small bugs :
 * The rather old highlighter-plugin has no highlighting, though there are other possibilities of  ckeditor plugins with simliar function 
 
 * For problems with PHP Mailer please study  https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting  and the forum
+
+* QUESTIONS for installations and development ? Please look before in <a href="https://github.com/gtbu/Typesetter5.2/wiki" target=_blank> this  Wiki</a> 
+or <a href="https://www.typesettercms.com/Docs" target=_blank>in the Forum</a>.
 ------------------------------------------------------------------------------------------------------
 
 # Typesetter CMS #
